@@ -1,4 +1,2 @@
 #!/bin/bash
-CFILE="main.c"
-O_FILE="${CFILE%.*}.s"
-gcc -S -masm=intel -o "$O_FILE" "$CFILE"
+gcc -S -masm=intel -o "${CFILE%.*}.s" "$CFILE"
