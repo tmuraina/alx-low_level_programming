@@ -18,7 +18,7 @@ int main(void)
 			/* To print the last digit */
 			putchar(' ');
 			putchar(num2 / 10 + '0');
-			putchar (num2 % 10 + '0');
+			putchar(num2 % 10 + '0');
 			if (!(num1 == 99 && num2 == 99))
 			{
 				putchar(',');
