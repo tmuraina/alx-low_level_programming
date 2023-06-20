@@ -3,7 +3,6 @@
  * print_alphabet_x10 - prints the alphabets 10 times in lowercase
  * Description: This function prints the lowercase alphabets from 'a' to 'z'
  * ten times, each on a new line
- * Return: always 0
  */
 void print_alphabet_x10(void)
 {
@@ -20,6 +19,5 @@ void print_alphabet_x10(void)
 			letter++;
 		}
 		_putchar('\n');
-		num_of_times++;
 	}
 }
