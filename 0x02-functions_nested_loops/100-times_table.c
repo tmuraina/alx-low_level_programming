@@ -1,4 +1,4 @@
-#include "main.hi"
+#include "main.h"
 
 /**
  * print_times_table - prints the n times table, staring with 0
