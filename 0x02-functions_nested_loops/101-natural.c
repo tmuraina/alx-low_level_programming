@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,8 +8,7 @@
 
 int compute_sum(void)
 {
-	int i;
-	int sum = 0;
+	int i, sum = 0;
 
 	for (i = 0; i < 1024; i++)
 	{
@@ -17,9 +17,4 @@ int compute_sum(void)
 	}
 
 	return (sum);
-}
-
-int _putchar(char c)
-{
-	return ((write(1, &c, 1));
 }
