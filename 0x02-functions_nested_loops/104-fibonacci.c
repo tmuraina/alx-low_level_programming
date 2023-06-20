@@ -4,29 +4,23 @@
  * main - Entry for task 104
  * Return: always return 0 for success
  * prev: previous term
- * current: current term
- * next: next term
  */
 
 int main(void)
 {
-	unsigned long int prev = 1;
-	unsigned long int current = 2;
-	unsigned long int next;
+	unsigned long int i;
+	unsigned long int prev1 = 1;
+	unsigned long int prev2 = 2;
 
-	printf("%lu, %lu, ", prev, current);
+	printf("%lu", prev1);
 
-	for (int i = 3; i <= 98; i++)
+	for (int i = 1; i < 98; i++)
 	{
-		next = prev + current;
-		printf("%lu", next);
-
-		if (i != 98)
-			printf(", ");
-
-		prev = current;
-		current = next;
+		printf(", %lu", prev2);
+		prev2 += prev1;
+		prev1 = prev2 - prev1;
 	}
+
 
 	printf("\n");
 
