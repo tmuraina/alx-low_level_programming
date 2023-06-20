@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.hi"
 
 /**
  * print_times_table - prints the n times table, staring with 0
@@ -7,7 +7,7 @@
 
 void print_times_table(int n)
 {
-	int i, j, results;
+	int i, j, result;
 
 	if (n > 15 || n < 0)
 		return;
