@@ -19,10 +19,10 @@ int main(void)
 		fib1 = fib2;
 		fib2 = fib_sum;
 
-		if (count == 49)
+		if (i == 49)
 			printf("\n");
 		else
-			printf(", ")
+			printf(", ");
 	}
 
 	return (0);
