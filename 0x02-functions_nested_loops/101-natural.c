@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry for task 101
- * Return: 0 for success
+ * compute_sum - computes the sum of multiples of 3 or 5 below 1024
+ * Return: the sum of the multiples
  */
 
-int main(void)
+int compute_sum(void)
 {
 	int i;
 	int sum = 0;
@@ -16,8 +16,10 @@ int main(void)
 			sum += i;
 	}
 
-	print_number(sum);
-	_putchar('\n');
+	return (sum);
+}
 
-	return (0);
+int _putchar(char c)
+{
+	return ((write(1, &c, 1));
 }
