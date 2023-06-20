@@ -3,13 +3,16 @@
 /**
  * main - Entry for task 104
  * Return: always return 0 for success
+ * prev: previous term
+ * current: current term
+ * next: next term
  */
 
 int main(void)
 {
-	unsigned long int prev = 1; //previous term
-	unsigned long int current = 2; //current term
-	unsigned long int next; //next term
+	unsigned long int prev = 1;
+	unsigned long int current = 2;
+	unsigned long int next;
 
 	printf("%lu, %lu, ", prev, current);
 

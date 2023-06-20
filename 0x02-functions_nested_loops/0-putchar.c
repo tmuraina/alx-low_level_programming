@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * main - Entry for task 0
+ * Return: 0 for success
+ */
 int main(void)
 {
 	_putchar('_');

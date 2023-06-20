@@ -2,15 +2,19 @@
 
 /**
  * main - Entry for task 103
- * Return: always return o
+ * Return: always return 0
+ * prev: previous term
+ * current: current term
+ * next: next term
+ * sum: initial sum of even_valued terms
  */
 
 int main(void)
 {
-	long int prev = 1; // previous term
-	long int current = 2; // current term
-	long int next; // next term
-	long int sum =2; // initial sum of even-valued terms
+	long int prev = 1;
+	long int current = 2;
+	long int next;
+	long int sum = 2;
 
 	while (current <= 4000000)
 	{
